@@ -72,20 +72,38 @@ a {
 /* first-section */
 
 .first-section {
+    width: 1440px;
+    height: 600px;
     background-color: #2E2F42;
 }
 
+.first-section-container {
+    padding-top: 188px;    
+    padding-left: 472px;
+}
+
 .first-section-txt {
+    width: 496px;
+    height: 120px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
     letter-spacing: 0.02em;
     text-align: center;
-    font-size: 56px;
-    line-height: 1.07;
-    color: #ffffff;
+    color: #fff;
+}
+
+.first-section-btn-container {
+    margin-top: 48px;    
+    padding-left: 636px;
 }
 
 .first-section-btn {
     font-family: "Roboto", sans-serif;
     cursor: pointer;
+    border-radius: 4px;    
+    width: 169px;
+    height: 56px;
     letter-spacing: 0.04em;
     line-height: 1.5;
     font-weight: 500;
@@ -105,9 +123,19 @@ a {
 
 .second-section-head {}
 
-.second-section-list {}
+.second-section-list {
+    box-sizing: content-box;
+    display: inline-block;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 8px;
+}
 
-.second-section-item {}
+.second-section-item {
+    width: 264px;
+    height: 104px;
+}
 
 .second-section-name {
     font-weight: 500;
@@ -203,8 +231,18 @@ a {
 /* footer*/
 
 .footer {
+    width: 1440px;
+    height: 312px;
     background: #2E2F42;
 }
+
+.footer-conteiner {
+    padding-top: 100px;
+    margin-left: 156px;
+    width: 264px;
+    height: 112px
+}
+
 
 .footer-logo .logo-studio {
     color: #f4f4fd;
