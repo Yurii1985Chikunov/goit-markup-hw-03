@@ -122,33 +122,22 @@ a {
     background-color: #2E2F42;
 }
 
-.first-section-container {
-    padding-top: 188px;
-    padding-left: 472px;
-}
-
 .first-section-txt {
-    width: 496px;
-    height: 120px;
+    padding-top: 188px;
+    max-width: 496px;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07143;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-}
-
-.first-section-btn-container {
-    margin-top: 48px;
-    padding-left: 636px;
+    align-items: center;
 }
 
 .first-section-btn {
     font-family: "Roboto", sans-serif;
     cursor: pointer;
     border-radius: 4px;
-    width: 169px;
-    height: 56px;
     letter-spacing: 0.04em;
     line-height: 1.5;
     font-weight: 500;
@@ -165,12 +154,10 @@ a {
 /* second-section */
 
 .second-section-list {
-    box-sizing: content-box;
-    display: inline-block;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: column;
-    gap: 8px;
+    margin: 120px 0;
+    display: flex;
+    align-items: center;
+    gap: 24px;
 }
 
 .second-section-item {
@@ -200,6 +187,7 @@ a {
 }
 
 .third-section-head {
+    padding-top: 120px;
     text-transform: capitalize;
     font-size: 36px;
     line-height: 1.11;
@@ -209,12 +197,20 @@ a {
 }
 
 .third-section-list {
+    display: flex;
+    align-items: center;
+    gap: 24px;
     background-color: #FFFFFF;
+}
+
+.img-user {
+    border: 1px solid #000;
 }
 
 .third-section-item {
     background-color: #FFFFFF
 }
+
 
 .third-section-name {
     font-weight: 500;
@@ -237,6 +233,7 @@ a {
 /* fourth section */
 
 .fourth-section-head {
+    padding: 120px;
     text-transform: capitalize;
     font-weight: 700;
     font-size: 36px;
@@ -266,24 +263,27 @@ a {
 /* footer*/
 
 .footer {
-    width: 1440px;
-    height: 312px;
+    margin: 0 auto;
+    align-items: center;
     background: #2E2F42;
 }
 
-.footer-conteiner {
-    padding-top: 100px;
-    margin-left: 156px;
-    width: 264px;
-    height: 112px
+.footer-container {
+    padding-top: 84px;    
 }
 
+.footer-logo {
+    display: block;   
+    padding: 16px 0;
+}
 
 .footer-logo .logo-studio {
     color: #f4f4fd;
 }
 
-.footer-txt {
+.footer-txt {    
+    padding-bottom: 100px;
+    max-width: 264px;
     letter-spacing: 0.02em;
     line-height: 1.5;
     color: #F4F4FD;
