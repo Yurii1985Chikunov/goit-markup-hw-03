@@ -4,20 +4,52 @@ body {
     background-color: #FFFFFF;
 }
 
+/* reset */
+
 ol,
 ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
 }
 
 a {
     text-decoration: none;
 }
 
+/*common */
+
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
 /* header */
 
-.header {}
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
 
-.header-nav {}
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
 
 .logo {
     font-family: "Raleway", sans-serif;
@@ -29,15 +61,25 @@ a {
     color: #4d5ae5;
 }
 
+.header-logo {
+    padding: 24px 0;
+    margin-right: 76px;
+
+}
+
 .header-logo .logo2 {
     color: #2e2f42;
 }
 
-.nav-list {}
-
-.nav-item {}
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
 
 .nav-link {
+    display: block;
+    padding: 24px 0;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -47,13 +89,18 @@ a {
 
 .header-addrees {
     font-style: normal;
+    margin-left: auto;
 }
 
-.address-list {}
-
-.address-item {}
+.address-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
 
 .address-link {
+    display: block;
+    padding: 24px 0;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -72,13 +119,11 @@ a {
 /* first-section */
 
 .first-section {
-    width: 1440px;
-    height: 600px;
     background-color: #2E2F42;
 }
 
 .first-section-container {
-    padding-top: 188px;    
+    padding-top: 188px;
     padding-left: 472px;
 }
 
@@ -94,14 +139,14 @@ a {
 }
 
 .first-section-btn-container {
-    margin-top: 48px;    
+    margin-top: 48px;
     padding-left: 636px;
 }
 
 .first-section-btn {
     font-family: "Roboto", sans-serif;
     cursor: pointer;
-    border-radius: 4px;    
+    border-radius: 4px;
     width: 169px;
     height: 56px;
     letter-spacing: 0.04em;
@@ -118,10 +163,6 @@ a {
 }
 
 /* second-section */
-
-.second-section {}
-
-.second-section-head {}
 
 .second-section-list {
     box-sizing: content-box;
@@ -195,8 +236,6 @@ a {
 
 /* fourth section */
 
-.fourth-section {}
-
 .fourth-section-head {
     text-transform: capitalize;
     font-weight: 700;
@@ -206,10 +245,6 @@ a {
     text-align: center;
     color: #2e2f42;
 }
-
-.fourth-section-list {}
-
-.fourth-section-item {}
 
 .fourth-section-name {
     font-weight: 500;
