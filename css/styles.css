@@ -267,8 +267,8 @@ a {
     row-gap: 48px;
 }
 
-.fourth-section-head {   
-    margin-bottom: 72px; 
+.fourth-section-head {
+    margin-bottom: 72px;
     text-transform: capitalize;
     font-weight: 700;
     font-size: 36px;
@@ -282,7 +282,17 @@ a {
     display: block;
 }
 
+.img-description {
+    padding: 32px 16p;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+
+}
+
 .fourth-section-name {
+    padding-top: 32px;
+    padding-left: 16px;
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -291,6 +301,7 @@ a {
 }
 
 .fourth-section-txt {
+    padding-left: 16px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
