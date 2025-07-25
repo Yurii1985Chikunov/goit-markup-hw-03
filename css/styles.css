@@ -119,11 +119,12 @@ a {
 /* first-section */
 
 .first-section {
+    padding: 188px 0;
     background-color: #2E2F42;
 }
 
-.first-section-txt {
-    padding-top: 188px;
+.first-section-txt {    
+    margin: auto;
     max-width: 496px;
     font-weight: 700;
     font-size: 56px;
@@ -134,9 +135,14 @@ a {
     align-items: center;
 }
 
-.first-section-btn {
+.first-section-btn {    
+    margin: auto;
+    display: block;
     font-family: "Roboto", sans-serif;
     cursor: pointer;
+    min-width: 169px;
+    height: 56px;
+    border: none;
     border-radius: 4px;
     letter-spacing: 0.04em;
     line-height: 1.5;
@@ -153,6 +159,12 @@ a {
 
 /* second-section */
 
+.second-section {
+    padding: 120px 0;
+}
+
+.second-section-head {}
+
 .second-section-list {
     margin: 120px 0;
     display: flex;
@@ -166,6 +178,7 @@ a {
 }
 
 .second-section-name {
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -269,11 +282,11 @@ a {
 }
 
 .footer-container {
-    padding-top: 84px;    
+    padding-top: 84px;
 }
 
 .footer-logo {
-    display: block;   
+    display: block;
     padding: 16px 0;
 }
 
@@ -281,7 +294,7 @@ a {
     color: #f4f4fd;
 }
 
-.footer-txt {    
+.footer-txt {
     padding-bottom: 100px;
     max-width: 264px;
     letter-spacing: 0.02em;
