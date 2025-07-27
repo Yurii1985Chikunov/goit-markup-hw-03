@@ -125,6 +125,7 @@ a {
 
 .first-section-txt {
     margin: auto;
+    margin-bottom: 48px;
     max-width: 496px;
     font-weight: 700;
     font-size: 56px;
