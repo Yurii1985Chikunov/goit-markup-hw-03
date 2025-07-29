@@ -177,16 +177,13 @@ a {
     overflow: hidden;
 }
 
-.second-section-list {
-    margin: 120px 0;
-    display: flex;
-    align-items: center;
+.second-section-list {   
+    display: flex;   
     gap: 24px;
 }
 
 .second-section-item {
-    width: 264px;
-    height: 104px;
+    width: calc((100% - 72px) / 4);    
 }
 
 .second-section-name {
@@ -223,15 +220,12 @@ a {
 }
 
 .third-section-list {
-    display: flex;
-    align-items: center;
-    gap: 24px;
-    background-color: #FFFFFF;
+    display: flex;    
+    gap: 24px;    
 }
 
 .img-user {
-    display: block;
-    border: 1px solid #000;
+    display: block;    
 }
 
 .user-name {
@@ -239,8 +233,8 @@ a {
 }
 
 .third-section-item {
-    border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0 0 4px 4px;    
     background-color: #FFFFFF
 }
 
@@ -275,6 +269,10 @@ a {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+}
+
+.fourth-section-item {
+    width: calc((100% - 48px) / 3);
 }
 
 .fourth-section-head {
@@ -320,9 +318,7 @@ a {
 /* footer*/
 
 .footer {
-    padding: 100px 0;
-    margin: 0 auto;
-    align-items: center;
+    padding: 100px 0;    
     background: #2E2F42;
 }
 
@@ -339,8 +335,7 @@ a {
     color: #f4f4fd;
 }
 
-.footer-txt {
-    padding-bottom: 100px;
+.footer-txt {    
     max-width: 264px;
     letter-spacing: 0.02em;
     line-height: 1.5;
